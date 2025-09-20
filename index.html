@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RockPaperScissors</title>
+  <link rel="icon" href="./img/faviconimage.png">
+  <link rel="stylesheet" href="./style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+      <h1>Rock Paper Scissors</h1>
+    <div class="game-box">
+      <div class="box">
+        <p id="rock">✊</p>
+      </div>
+      <div class="box">
+        <p id="paper">🤚</p>
+      </div>
+      <div class="box">
+        <p id="scissors">🤞</p>
+      </div>
+    </div>
+    <div class="review-box">
+      <p class="text" id="result">Press any turn to start</p>
+    </div>
+    <div class="score-box">
+      <p class="scores">Score: <span id="win">0</span></p>
+      <p class="scores">Tie: <span id="tie">0</span></p>
+      <p class="scores">Lose: <span id="lose">0</span></p>
+
+      <button id="reset-btn">Reset</button>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
